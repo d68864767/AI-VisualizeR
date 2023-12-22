@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI-VisualizeR</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.2.0/socket.io.js"></script>
+    <script src="scripts.js"></script>
+</head>
+<body>
+    <header>
+        <h1>AI-VisualizeR: AI-Driven Data Visualization and Interpretation Platform</h1>
+    </header>
+    <main>
+        <section id="data-upload">
+            <h2>Upload Your Data</h2>
+            <input type="file" id="data-file" accept=".csv">
+            <button id="submit-data">Submit Data</button>
+        </section>
+        <section id="visualization">
+            <h2>Data Visualization</h2>
+            <div id="visualization-container"></div>
+        </section>
+        <section id="prediction">
+            <h2>Predictive Insights</h2>
+            <div id="prediction-container"></div>
+        </section>
+        <section id="collaboration">
+            <h2>Collaboration</h2>
+            <input type="text" id="collaboration-room" placeholder="Enter room name">
+            <button id="join-room">Join Room</button>
+            <button id="leave-room">Leave Room</button>
+        </section>
+        <section id="export">
+            <h2>Export Visualization</h2>
+            <select id="export-format">
+                <option value="pdf">PDF</option>
+                <option value="png">PNG</option>
+                <option value="web">Interactive Web-Based Report</option>
+            </select>
+            <button id="export-button">Export</button>
+        </section>
+    </main>
+    <footer>
+        <p>© 2022 AI-VisualizeR. All rights reserved.</p>
+    </footer>
+    <script>
+        var socket = io.connect('http://' + document.domain + ':' + location.port);
+        // Add your JavaScript code to handle socket events and interact with the server
+    </script>
+</body>
+</html>
+</p></button>

@@ -1,0 +1,35 @@
+# Libraries for data processing
+numpy==1.21.2
+pandas==1.3.3
+
+# Libraries for machine learning
+scikit-learn==0.24.2
+tensorflow==2.6.0
+
+# Libraries for data visualization
+matplotlib==3.4.3
+seaborn==0.11.2
+plotly==5.3.1
+
+# Libraries for natural language processing
+nltk==3.6.2
+spacy==3.1.3
+
+# Libraries for web development
+flask==2.0.1
+flask-socketio==5.1.1
+
+# Libraries for testing
+pytest==6.2.5
+
+# Libraries for security
+cryptography==3.4.8
+
+# Libraries for collaboration
+flask-login==0.5.0
+
+# Libraries for exporting visualizations
+reportlab==3.5.68
+
+# Other necessary libraries
+python-dotenv==0.19.1
